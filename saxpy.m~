@@ -1,0 +1,13 @@
+function C = saxpy(A,B)
+    
+    [m,n] = size(A);
+    [n,k] = size(B);
+    C = zeros(m,k);
+    
+    for j = 1 : k
+        for i = 1 : n
+        C(:,j) = C(:,j) + 
+        end
+    end
+
+end
